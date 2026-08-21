@@ -19,7 +19,7 @@ REST API built with Node.js, Express, PostgreSQL, Prisma, and session-based auth
 2. Create `.env` in the project root:
 
    ```env
-   DATABASE_URL="postgresql://user:password@localhost:5432/ecommerce"
+   DATABASE_URL="postgresql://user:password@localhost:5432/your_db"
    SESSION_SECRET="replace-with-a-long-random-secret"
    PORT=5000
    ```
