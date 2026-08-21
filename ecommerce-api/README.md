@@ -123,6 +123,19 @@ All API errors are JSON objects with an `error` field:
 - Admin operations are protected by authorization middleware.
 - `DATABASE_URL` and `SESSION_SECRET` are stored in environment variables.
 
+- Why Prisma?
+
+We chose Prisma ORM because it works well with PostgreSQL and makes database operations easier.
+
+Easy to use with Node.js and Express
+Simplifies CRUD operations
+Makes database relationships easier to manage
+Reduces the need to write raw SQL
+Provides migrations to safely track and update database changes
+Keeps the database schema organized
+
+Prisma makes our backend code cleaner, easier to maintain, and easier to work with.
+
 ## Commands
 
 ```bash
